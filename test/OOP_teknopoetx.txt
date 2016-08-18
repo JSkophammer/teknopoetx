@@ -1,0 +1,17 @@
+files
+  vocab(generate, update, synchronize, format)
+
+  dictionaries(generate, update, synchronize, format): f_id
+    main_gram
+    mrev_gram
+    strs_dict
+    pron_dict
+    syl_count
+    freq_pron
+    word_dict
+    rhym_dict
+
+  texts(generate, format)
+    raw
+    procd
+    logs
